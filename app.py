@@ -9,7 +9,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
-model = load_model('/Users/sajeeth/Python/flask_pro/Dtect_Confusion_FinalModel.h5')
+model = load_model('Model_Name')
 
 # Store small box images temporarily as base64 strings
 temp_ext_sign = []
