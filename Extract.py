@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # Load the image
-image = cv2.imread('/Users/sajeeth/Downloads/WhatsApp Image 2024-03-01 at 9.52.43 AM.jpeg')
+image = cv2.imread('Image_Path')
 
 # Resize the image to a specific width and height
 new_width = 300
