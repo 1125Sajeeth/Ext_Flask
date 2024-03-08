@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # Load the image
-image = cv2.imread('Image_Path')
+image = cv2.imread('Image_PaTh')
 
 # Resize the image to a specific width and height
 new_width = 300
